@@ -1,11 +1,11 @@
 # Scope Dataset Toolkit (available soon)
 
-![Scope-Logo](..images/scope_high_res.png?raw=true)
+![Scope-Logo](images/scope_high_res.png)
 
 Here you can download the official Toolkit for the [SCOPE dataset](https://ekut-es.github.io/scope/).
 The Toolkit provides functionality for an efficient parallel download, visualization and evaluation of Collective Perception Algorithms.
 
-![Toolkit](..images/Toolkit.png?raw=true)
+![Toolkit](images/Toolkit.png)
 
 ## Installation
 
@@ -32,8 +32,8 @@ and follow the on-screen instructions.
 
 ### Visualization
 
-![Visualization_Cam+LiDAR](..images/243_in_2021_08_23_21_47_19_CamLidar.gif?raw=true)
-![Visualization_45Top](..images/243_in_2021_08_23_21_47_19_45Top.gif?raw=true)
+![Visualization_Cam+LiDAR](images/243_in_2021_08_23_21_47_19_CamLidar.gif)
+![Visualization_45Top](images/243_in_2021_08_23_21_47_19_45Top.gif)
 
 The visualization module allows for an easy exploration of the dataset.
 
