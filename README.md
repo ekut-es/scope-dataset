@@ -63,6 +63,40 @@ Currently there are a few different perspectives implemented. Those are
 Evaluation module for easy and fair comparison of different methods using state-of-the-art metrics
 TODO
 
+## Data Structure
+Our data structure optimises data management and analysis with unique features:
+
+It separates environmental conditions, ensuring independent assessment of weather conditions. The hierarchical arrangement includes sensor data and transformation matrices per vehicle per scenario, enabling systematic management. Coordinate transformation is simplified with pre-existing matrices for each vehicle and sensor. In addition, support for common file formats such as .bin, .txt and .png ensures efficient data loading.
+
+![Data Structure](images/data-structure-gray.png)
+
+### Ground Truth Format (.csv)
+This section outlines the structure and contents of the ground truth data stored in a CSV (Comma-Separated Values) format. The table provides an overview of the fields present in the CSV file.
+| Type | ID |       |    Position    |       |        |    Dimension    |       |      |    Orientation    |        |       |    Velocity    |       |       |    Acceleration    |       |
+|------|----|:-----:|:------------------:|:-----:|:-----:|:-----:|:-----:|:---------------:|:------:|:------:|:-----:|:--------------:|:-----:|:--------------:|:-----:|:-----:|
+|      |    |**x**       | **y** | **z** |      **width**      | **height** | **length** |     **yaw**     |**pitch**|**roll**|      **x**     | **y** | **z** |      **x**     | **y** | **z** |
+| CAR  | 1  | 12.5 | 7.8 | 0.2 | 2.0 | 1.5 | 4.5 | 180.0 | 0.0 | 0.0 | 50.0 | 0.0 | 0.0 | 2.5 | 0.0 | 0.0 |
+
+Each column is a seperate field like
+```CSV
+m_type << "," << m_id << "," << m_realworld_pos.x() << "," << m_realworld_pos.y() << "," << m_realworld_pos.z() << "," << m_realworld_dim.width <<...
+```
+
+The different types are
+
+| Type ID | Description   |
+|---------|---------------|
+| 0       | BACKGROUND    |
+| 1       | CAR           |
+| 2       | VAN           |
+| 3       | TRUCK         |
+| 4       | PEDESTRIAN    |
+| 5       | PERSON_SITTING|
+| 6       | CYCLIST       |
+| 7       | TRAM          |
+| 8       | MISC          |
+| 9       | MOTORBIKE     |
+
 ## Roadmap
 
 ## Contributing
