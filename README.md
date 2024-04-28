@@ -72,7 +72,7 @@ It separates environmental conditions, ensuring independent assessment of weathe
 
 ### Ground Truth Format (.csv)
 This section outlines the structure and contents of the ground truth data stored in a CSV (Comma-Separated Values) format. The table provides an overview of the fields present in the CSV file.
-| Type | ID |       |    Position    |       |        |    Dimension    |       |      |    Orientation    |        |       |    Velocity    |       |       |    Acceleration    |       |
+| Type | ID |       |    Position    |       |        |    Dimensions    |       |      |    Orientation    |        |       |    Velocity    |       |       |    Acceleration    |       |
 |------|----|:-----:|:------------------:|:-----:|:-----:|:-----:|:-----:|:---------------:|:------:|:------:|:-----:|:--------------:|:-----:|:--------------:|:-----:|:-----:|
 |      |    |**x**       | **y** | **z** |      **width**      | **height** | **length** |     **yaw**     |**pitch**|**roll**|      **x**     | **y** | **z** |      **x**     | **y** | **z** |
 | CAR  | 1  | 12.5 | 7.8 | 0.2 | 2.0 | 1.5 | 4.5 | 180.0 | 0.0 | 0.0 | 50.0 | 0.0 | 0.0 | 2.5 | 0.0 | 0.0 |
