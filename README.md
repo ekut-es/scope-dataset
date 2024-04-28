@@ -77,7 +77,7 @@ This section outlines the structure and contents of the ground truth data stored
 |      |    |**x**       | **y** | **z** |      **width**      | **height** | **length** |     **yaw**     |**pitch**|**roll**|      **x**     | **y** | **z** |      **x**     | **y** | **z** |
 | CAR  | 1  | 12.5 | 7.8 | 0.2 | 2.0 | 1.5 | 4.5 | 180.0 | 0.0 | 0.0 | 50.0 | 0.0 | 0.0 | 2.5 | 0.0 | 0.0 |
 
-Each column is a seperate field like
+Each column is a separate field, such as the following
 ```CSV
 m_type << "," << m_id << "," << m_realworld_pos.x() << "," << m_realworld_pos.y() << "," << m_realworld_pos.z() << "," << m_realworld_dim.width <<...
 ```
