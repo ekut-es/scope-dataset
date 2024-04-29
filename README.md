@@ -94,14 +94,5 @@ The different types are
 | 8       | MISC          |
 | 9       | MOTORBIKE     |
 
-## Roadmap
-
-## Contributing
-
-## Authors and acknowledgment
-
-## License
-
-## Project status
-
 ## Citation
+If you use our SCOPE dataset or the toolkit, please use the following citation
