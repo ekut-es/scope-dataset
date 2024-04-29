@@ -75,7 +75,7 @@ This section outlines the structure and contents of the ground truth data stored
 | Type | ID |       |    Position    |       |        |    Dimensions    |       |      |    Orientation    |        |       |    Velocity    |       |       |    Acceleration    |       |
 |------|----|:-----:|:------------------:|:-----:|:-----:|:-----:|:-----:|:---------------:|:------:|:------:|:-----:|:--------------:|:-----:|:--------------:|:-----:|:-----:|
 |      |    |**x**       | **y** | **z** |      **width**      | **height** | **length** |     **yaw**     |**pitch**|**roll**|      **x**     | **y** | **z** |      **x**     | **y** | **z** |
-| CAR  | 1  | 12.5 | 7.8 | 0.2 | 2.0 | 1.5 | 4.5 | 180.0 | 0.0 | 0.0 | 50.0 | 0.0 | 0.0 | 2.5 | 0.0 | 0.0 |
+| 1    | 324  | 12.5 | 7.8 | 0.2 | 2.0 | 1.5 | 4.5 | 180.0 | 2.0 | 0.0 | 10.2 | 4.1 | 0.1 | 1.7 | 0.2 | 0.1 |
 
 Each column is a separate field, such as the following
 ```CSV
